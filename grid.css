@@ -1,6 +1,18 @@
-
+main {
+    display: grid;
+    grid-template-columns: 45px 5fr 1fr;
+    height: 50px;
+}
+header{
+    display: flex;
+}
+#sectionOne {
+    background-image: url("lab-assets/hr-img.png");
+    background-repeat: repeat-x;
+    background-size: 10px;
+}
 #checkbox-section {
         background-image: url("lab-assets/list-bg.png");
         width: 900px;
-        height: 300px;
+      height: 300px;
     }
