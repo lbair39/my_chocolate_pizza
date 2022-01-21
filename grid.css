@@ -1,15 +1,48 @@
+body {
+    margin-left: 290px;
+    margin-right: 295px;
+}
 main {
     display: grid;
-    grid-template-columns: 45px 5fr 1fr;
-    height: 50px;
-}
-header{
-    display: flex;
-}
-#sectionOne {
+    grid-template-columns: 45px 5fr 1.8fr;
+    height: 75px;
     background-image: url("lab-assets/hr-img.png");
     background-repeat: repeat-x;
     background-size: 10px;
+    background-position-y: 65px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 13px;
+    color:gray;
+}
+#logo {
+    margin-top: 6px;
+}
+#print {
+    display: flex;
+   justify-content: flex-end;
+    height:15px;
+    margin-right:5px;
+}
+h2 {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#chocoPizza {
+ display: block;
+ margin-top: 20px;
 }
 #checkbox-section {
         background-image: url("lab-assets/list-bg.png");
