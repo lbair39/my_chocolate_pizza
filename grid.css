@@ -1,6 +1,6 @@
 body {
-    margin-left: 290px;
-    margin-right: 295px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 main {
     display: grid;
@@ -16,14 +16,13 @@ header{
     flex-direction: column;
 }
 h1 {
-    margin-top: 0px;
     margin: 0px;
     padding: 0px;
 }
 h4 {
     margin-top: 0px;
     padding: 0px;
-    font-size: 13px;
+    font-size: 15px;
     color:gray;
 }
 #logo {
@@ -33,7 +32,6 @@ h4 {
     display: flex;
    justify-content: flex-end;
     height:15px;
-    margin-right:5px;
 }
 h2 {
     margin: 0px;
@@ -48,4 +46,61 @@ h2 {
         background-image: url("lab-assets/list-bg.png");
         width: 900px;
       height: 300px;
-    }
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+}
+ul li {
+    margin-top: 10px;
+    font-size: 27px;
+    display: block;
+}
+p {
+    text-indent: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+#author{
+background-image: url("lab-assets/hr-img.png");
+background-repeat: repeat-x;
+background-size: 10px;
+background-position-y: 40px;
+display: grid;
+grid-template-columns: 90px 430px 1fr;
+}
+#vanpic{
+    margin-top: 75px;
+}
+#bio{
+    margin-top: 60px;
+}
+h5{
+    font-size: 20px;
+    margin:0px;
+    margin-top: 22px;
+}
+h6 {
+    margin-top: 80px;
+    margin-left: 150px;
+    background-color: rgb(179, 104, 81);
+    Font-size: 17px;
+    color: white;
+    text-align:center;
+    padding: 25px;
+}
+#small {
+    display:inline;
+    margin-left: 425px;
+}
+#end{
+    background-image: url("lab-assets/hr-img.png");
+    background-repeat: repeat-x;
+    background-size: 2px;
+    background-position-y: 15px;
+}
+footer{
+    text-align: center;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 25px;
+    color: gray;
+}
